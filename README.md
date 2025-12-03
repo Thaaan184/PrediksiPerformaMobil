@@ -51,7 +51,7 @@ Tahap *Unsupervised Learning* untuk memberikan label pada data mentah.
 
 ### 2. Tahap Klasifikasi & Prediksi (`Klasifikasi.ipynb`)
 Tahap *Supervised Learning* untuk membuat model prediksi.
-* **Preprocessing:** Memuat data hasil clustering.
+* **Load Data:** Memuat data hasil clustering.
 * **Handling Imbalanced Data:** Menggunakan **SMOTE (Synthetic Minority Over-sampling Technique)** untuk menyeimbangkan kelas minoritas (khususnya kelas *Hypercar* yang datanya sedikit).
 * **Model Training:** Menggunakan algoritma **Random Forest Classifier**.
 * **Evaluasi:** Menggunakan **Stratified K-Fold Cross Validation** (5 Folds) untuk memastikan model stabil.
