@@ -45,8 +45,8 @@ Tahap *Unsupervised Learning* untuk memberikan label pada data mentah.
 * **Data Cleaning:** Pembersihan format mata uang, satuan unit (hp, cc, km/h), dan penanganan *missing values*.
 * **Scaling:** Standardisasi data menggunakan `StandardScaler` (Z-Score).
 * **Feature Selection:** Menggunakan **PCA (Principal Component Analysis)** untuk memilih fitur yang paling berkontribusi dan mereduksi dimensi data.
+* * **Optimasi K:** Penentuan jumlah cluster optimal menggunakan **Elbow Method** (deteksi otomatis jarak terjauh).
 * **Modeling:** Menggunakan **K-Means Clustering**.
-* **Optimasi K:** Penentuan jumlah cluster optimal menggunakan **Elbow Method** (deteksi otomatis jarak terjauh).
 * **Profiling:** Memberikan nama segmen (Economy, Sports, Supercar, Hypercar).
 
 ### 2. Tahap Klasifikasi & Prediksi (`Klasifikasi.ipynb`)
