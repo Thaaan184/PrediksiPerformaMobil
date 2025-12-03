@@ -45,13 +45,13 @@ Tahap *Unsupervised Learning* untuk memberikan label pada data mentah.
 * **Data Cleaning:** Pembersihan format mata uang, satuan unit (hp, cc, km/h), dan penanganan *missing values*.
 * **Scaling:** Standardisasi data menggunakan `StandardScaler` (Z-Score).
 * **Feature Selection:** Menggunakan **PCA (Principal Component Analysis)** untuk memilih fitur yang paling berkontribusi dan mereduksi dimensi data.
-* **Modeling:** Menggunakan **K-Means Clustering**.
 * **Optimasi K:** Penentuan jumlah cluster optimal menggunakan **Elbow Method** (deteksi otomatis jarak terjauh).
+* **Modeling:** Menggunakan **K-Means Clustering**.
 * **Profiling:** Memberikan nama segmen (Economy, Sports, Supercar, Hypercar).
 
 ### 2. Tahap Klasifikasi & Prediksi (`Klasifikasi.ipynb`)
 Tahap *Supervised Learning* untuk membuat model prediksi.
-* **Preprocessing:** Memuat data hasil clustering.
+* **Load Data:** Memuat data hasil clustering.
 * **Handling Imbalanced Data:** Menggunakan **SMOTE (Synthetic Minority Over-sampling Technique)** untuk menyeimbangkan kelas minoritas (khususnya kelas *Hypercar* yang datanya sedikit).
 * **Model Training:** Menggunakan algoritma **Random Forest Classifier**.
 * **Evaluasi:** Menggunakan **Stratified K-Fold Cross Validation** (5 Folds) untuk memastikan model stabil.
